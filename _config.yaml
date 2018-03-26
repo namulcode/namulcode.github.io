@@ -1,6 +1,6 @@
 # permalink: /:title.html
 encoding: utf-8
-# paginate: 5
+
 
 title: 나물코드 블로그
 url: http://namulcode.com
@@ -20,6 +20,8 @@ css:
 js: 
   - /res/addLoad.js
 
-sass: 
-  sass_dir: _sass
-  style: compressed
+
+plugins: [jekyll-paginate] 
+
+paginate: 5
+patinate_path: page:num
