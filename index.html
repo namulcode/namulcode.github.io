@@ -5,6 +5,15 @@ layout: index
 <h1>나물코드</h1>
 <p>HTML5 Engineer</p>
 
+<hr>
+
+{% for item in site.static_files %}
+    <div>{{ item.path }}</div>
+{% endfor %}
+
+
+<hr>
+
 
 <!-- This loops through the paginated posts -->
 <ul>
