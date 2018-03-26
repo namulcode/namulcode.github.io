@@ -15,6 +15,11 @@ author:
 css: 
   - /res/font.css
   - /res/form.css
+  - /res/common.css
 
 js: 
   - /res/addLoad.js
+
+sass: 
+  sass_dir: _sass
+  style: compressed
