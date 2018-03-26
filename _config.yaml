@@ -1,0 +1,20 @@
+# permalink: /:title.html
+encoding: utf-8
+# paginate: 5
+
+title: 나물코드 블로그
+url: http://namulcode.com
+feed: /atom.xml
+description: d__
+comment: c__
+
+author: 
+    name: donghyuc-kim
+    email: inbox@soopul.com
+
+css: 
+  - /res/font.css
+  - /res/form.css
+
+js: 
+  - /res/addLoad.js
