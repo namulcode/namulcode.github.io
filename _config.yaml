@@ -13,12 +13,12 @@ author:
     email: inbox@soopul.com
 
 css: 
-  - /res/font.css
-  - /res/form.css
-  - /res/common.css
+  - /resources/font.css
+  - /resources/form.css
+  - /resources/common.css
 
 js: 
-  - /res/addLoad.js
+  - /resources/addLoad.js
 
 
 plugins: [jekyll-paginate] 
