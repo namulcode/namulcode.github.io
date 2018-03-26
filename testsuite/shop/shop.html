@@ -6,3 +6,7 @@ cid: components/a.html
 {% include components/a.html %}
 
 <p>{{ site.data.a.message }}</p>
+
+{% for item in site.static_files %}
+    <div>{{ item.path }}</div>
+{% endfor %}
