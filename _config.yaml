@@ -24,4 +24,4 @@ js:
 plugins: [jekyll-paginate] 
 
 paginate: 5
-patinate_path: page:num
+patinate_path: /page:num
