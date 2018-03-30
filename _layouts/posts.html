@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 
 {% include header.html %}
+<link rel="stylesheet" href="/resources/post.css">
+<link rel="stylesheet" href="/resources/{{ page.post }}.css">
 
-{{ content }}
+
+<div class="post-body">
+    {{ content }}
+</div>

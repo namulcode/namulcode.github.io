@@ -1,0 +1,10 @@
+@charset "utf-8"; 
+
+.post-body {
+    margin: 32px auto; 
+    max-width: 600px;
+}
+
+.post-body p {
+    margin: 1.2em 0;
+}
