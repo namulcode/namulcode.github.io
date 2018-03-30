@@ -3,11 +3,11 @@
 .nav-pagination {
     border-top: 1px solid #eee; 
     border-bottom: 1px solid #eee; 
+}
 
-    .number {
-        display: block; 
-        text-align: right;
-    }
+.nav-pagination .number {
+    display: block; 
+    text-align: right;
 }
 
 .nav-pagination a {
