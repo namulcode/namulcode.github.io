@@ -1,11 +1,6 @@
 @charset "utf-8"; 
 
 
-.post-body {
-    margin: 32px auto; 
-    max-width: 600px;
-}
-
 .post-body h1 {
     margin-top: 0;
 }

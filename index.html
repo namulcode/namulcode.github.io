@@ -1,34 +1,28 @@
 ---
 layout: index
+title: namulcode-index
 ---
 
-<h1>나물코드</h1>
-<p>HTML5 Engineer</p>
-<p>테스트...</p>
+<h1>namulcode-index</h1>
+<p>Markup Designer</p>
 
 
 <!-- {% for item in site.static_files %}
     <div>{{ item.path }}</div>
 {% endfor %} -->
 
-<hr>
-
-<!-- This loops through the paginated posts -->
-<ul>
-    {% if paginator.previous_page %}
-        <li>
+<nav class="nav-pagination">
+    <p class="page-list">
+        {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-        </li>
-    {% endif %}
-    {% for post in paginator.posts %}
-        <li>
+        {% endif %}
+        {% for post in paginator.posts %}
             <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-    {% endfor %}
-    {% if paginator.next_page %}
-        <li>
+        {% endfor %}
+        {% if paginator.next_page %}
             <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-        </li>
-    {% endif %}
-</ul>
-<p><span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span></p>
+        {% endif %}
+
+        <span class="number">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+    </p>
+</nav>

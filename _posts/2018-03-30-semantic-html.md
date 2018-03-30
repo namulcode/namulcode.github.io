@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: 시맨틱 HTML을 위한 전략 3가지.img 
+title: 시맨틱 HTML을 위한 전략 3가지 
 post: post-20180330-semantic-html
 tags: 
 - semantic

@@ -4,3 +4,9 @@ html,
 body {
     margin: 0;
 }
+
+
+body {
+    margin: 32px auto; 
+    max-width: 600px;
+}
