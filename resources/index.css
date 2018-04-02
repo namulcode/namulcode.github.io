@@ -1,23 +1,19 @@
 @charset "utf-8"; 
 
 
+
+
 h2 {
     margin-top: 2em;
     margin-bottom: 0;
-    /*font-weight: 500;*/
+    font-weight: 500;
     font-size: 1em;
-    /*background-color: #f8f8f8;*/
 }
 
-
-.nav-pagination {
-    border-top: 1px solid #eee; 
-    border-bottom: 1px solid #eee; 
-}
-
+.nav-pagination {}
 .nav-pagination .number {
     display: block; 
-    text-align: right;
+    text-align: center;
 }
 
 .nav-pagination a {
@@ -34,13 +30,17 @@ h2 {
     font-size: 14px;
 }
 
+.card-1 p { zoom: 1; }
+.card-1 p:after { content: " "; display: block; clear: both; }
+
 .card-1 img {
-    display: block;
-    margin: 2px;
-    width: 200px;
+    float: left; 
+    margin-right: 8px;
+    width: 100px;
 }
 
 .card-1 cite {
+    display: block;
     font-size: 0.9em;
 }
 
@@ -48,4 +48,5 @@ h2 {
     padding: 0 16px;
     border: 1px solid #fff; 
     background-color: #f8f8f8;
+    font-size: 14px;
 }
