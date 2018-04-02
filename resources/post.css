@@ -13,3 +13,8 @@
     margin-bottom: 8px;
     font-size: 12px;
 }
+
+.post-body img {
+    border: 1px solid #eee; 
+    width: 100%;
+}
