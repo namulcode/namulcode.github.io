@@ -23,3 +23,13 @@
 .post-body td {
     font-size: 1em; 
 } 
+
+
+
+.post-body .gist .blob-code-inner {
+    font-size: 6px;
+}
+
+.post-body .gist .blob-code {
+    line-height: 12px;
+}
