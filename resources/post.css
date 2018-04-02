@@ -18,3 +18,8 @@
     border: 1px solid #eee; 
     width: 100%;
 }
+
+.post-body th,
+.post-body td {
+    font-size: 1em; 
+} 
