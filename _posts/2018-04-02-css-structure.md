@@ -28,9 +28,12 @@ tags:
 
     <p>예제 코드는 다음과 같다. </p>
 
-    <script src="https://gist.github.com/donghyuc-kim/1c885b06cbaa692d46c8a98ba1b5ff92.js"></script>
+    <p>
+        <img src="/resources/posts/20180402-2.png" alt="CSS 구조를 분리한 실제코드를 캡쳐">
+    </p>
 
     <ul>
+        <li><a href="https://gist.github.com/donghyuc-kim/1c885b06cbaa692d46c8a98ba1b5ff92#file-css-structure-html">실제 CSS 구조 분리 코드</a></li>
         <li>page.css 를 예로 들었다.</li>
         <li>common.css 도 예제와 같은 CSS 파일들이 필요할 수 있다.</li>
         <li>CSS 파일 내부에 미디어쿼리를 작성하지 않고 link 속성으로 작성한다. 그래야 IE 하위버전에서도 별도의 파일 생성없이 그대로 사용할 수 있다. </li>
@@ -39,6 +42,6 @@ tags:
         <li>CSS 파일이 다소 많지만 상황에 따라 적절히 병합하고 분리하여 최적화할 수 있다. </li>
     </ul>
 
-    <p>관련된 node.js 나 SASS 포맷은 나중에.. </p>
+    <p>관련된 node.js 환경이나 SASS 분리는 나중에.. </p>
 
 </div>
