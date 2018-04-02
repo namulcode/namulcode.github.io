@@ -24,7 +24,7 @@ title: namulcode-index
             {% endif %} 
             <span class="number">{{ paginator.page }} / {{ paginator.total_pages }}</span> 
             {% if paginator.next_page %}
-                <li><a href="{{ paginator.next_page_path }}" class="next">다음</a></li>
+                <a href="{{ paginator.next_page_path }}" class="next">다음</a>
             {% endif %}
         </p>
     </div>
@@ -35,7 +35,7 @@ title: namulcode-index
 <div class="card-1">
     <p>
         <img src="./resources/image/patterns-gestures-gestures-pinch-open-large-xhdpi.png" alt="줌인 제스쳐">
-        
+
         줌인 제스쳐를 통해서 <br>조그만 이미지에 담긴 내용을 확인할 수 있다. 
         <cite>이미지출처 : <a href="https://material.io/guidelines/patterns/gestures.html#gestures-touch-mechanics">Gestures - Patterns - Material Design</a></cite> 
         
