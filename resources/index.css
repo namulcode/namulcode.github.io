@@ -18,3 +18,34 @@
 .nav-pagination a:hover {
     background-color: #eee;
 }
+
+
+.card-1 {
+    /*margin: 8px;*/
+    /*padding: 8px;*/
+    /*border: 1px solid #f8f8f8;*/
+    /*box-shadow: 1px 1px 1px 2px #eee;*/
+    font-size: 14px;
+}
+
+.card-1 img {
+    display: block;
+    margin: 2px;
+    width: 200px;
+}
+
+.card-1 cite {
+    font-size: 0.9em;
+}
+
+h2 {
+    margin-top: 2em;
+    /*font-weight: 500;*/
+    font-size: 1em;
+    /*background-color: #f8f8f8;*/
+}
+
+
+.div-header {}
+.div-header h1 { margin: 0; }
+.div-header p { margin: 0; }
