@@ -2,7 +2,6 @@
 
 
 
-
 h2 {
     margin-top: 2em;
     margin-bottom: 0;
@@ -27,8 +26,7 @@ h2 {
 
 
 .div-footer {
-    padding: 0 16px;
     border: 1px solid #fff; 
-    background-color: #f8f8f8;
+    border-top-color: #eee;
     font-size: 14px;
 }
