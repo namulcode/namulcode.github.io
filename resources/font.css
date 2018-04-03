@@ -17,3 +17,12 @@ h1 {
     letter-spacing: -1px;
     word-spacing: -4px;
 }
+
+a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
