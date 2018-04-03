@@ -26,26 +26,6 @@ h2 {
 }
 
 
-.card-1 {
-    font-size: 14px;
-    /*word-spacing: -1px;*/
-    letter-spacing: -1px;
-}
-
-.card-1 p { zoom: 1; }
-.card-1 p:after { content: " "; display: block; clear: both; }
-
-.card-1 img {
-    float: left; 
-    margin-right: 8px;
-    width: 100px;
-}
-
-.card-1 cite {
-    display: block;
-    font-size: 0.9em;
-}
-
 .div-footer {
     padding: 0 16px;
     border: 1px solid #fff; 
